@@ -10,9 +10,9 @@ terraform {
     }
   }
     backend "azurerm" {
-      resource_group_name  = "testrvrdelete_group"
-      storage_account_name = "testrvrdeletegroupad35"
-      container_name       = "tfsre"
+      resource_group_name  = "Cloudlabs-ACI-1379918-labvm-1379918-csae3a50"
+      storage_account_name = "agg12"
+      container_name       = "container"
       key                  = "terraform.tfstate"
     }
   }
